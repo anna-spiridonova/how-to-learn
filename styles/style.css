@@ -170,7 +170,7 @@
   margin: 0;
 }
 
-.table__text-source {
+.table__text:nth-child(odd) {
   padding-top: 20px;
 }
 
@@ -180,7 +180,7 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 867px 637px;
-  height: 890px;
+  min-height: 890px;
   text-align: center;
   position: relative;
 }
@@ -301,6 +301,8 @@
   display: flex;
   flex-direction: column;
   padding: 20px 0 16px;
+  list-style: none;
+  margin: 0;
 }
 
 .footer__column-link {
