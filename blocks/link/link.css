@@ -1,6 +1,7 @@
-.opacity {
+.link {
+  text-decoration: none;
   transition: opacity .3s ease;
 }
-.opacity:hover {
+.link:hover {
   opacity: .5;
 }
